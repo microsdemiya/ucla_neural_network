@@ -1,6 +1,6 @@
 
 import streamlit as st
-from modules.model import load_model
+model = load_model("models/ucla_model.pkl")
 import numpy as np
 
 st.title("🧠 UCLA Neural Network Classifier")
